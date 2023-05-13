@@ -13,8 +13,27 @@
 }
 
 .cmd-output {
-	margin-left: 20px;
-	margin-right: 45%;
+	/* margin-left: 20px; */
+	margin-right: 40%;
+}
+@media only screen and (max-width: 730px) {
+	[class=cmd-output] {
+		margin-right: 0%;
+	}
+	[id=ascii-art] {
+		font-size: xx-small;
+	}
+}
+@media only screen  and (max-width: 425px) {
+	:root{
+		font-size: smaller;
+	}
+	/* [class=cmd-output]{
+		/* margin-right: -20; 
+	} */
+	[id=ascii-art] {
+		font-size: 6px;
+	}
 }
 
 /* #acii-art{

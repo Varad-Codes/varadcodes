@@ -5,7 +5,8 @@ const AboutMe = _ => {
         <>
             <Prompt CMD={"AboutMe"} />
             <p className="cmd-output">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aperiam velit beatae eos perferendis cum adipisci magni optio, minima aliquam ea, voluptate cumque ex harum, quis facilis fuga magnam aspernatur odio odit?</p>
+                Varad Sharma is a self-taught web developer from India. He started out as a Java developer, then learned Rust, and finally switched to web development. He also learned Linux from a cyber security course and became a fan of anime. He is currently in 9th grade and is still practicing his programming skills.
+            </p>
             <br />
             <br />
         </>
