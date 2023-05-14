@@ -1,5 +1,6 @@
 import AboutMe from "./components/AboutMe"
 import Education from "./components/Education"
+import Experience from "./components/Experience"
 import Hero from "./components/Hero"
 import TechStack from "./components/TechStack"
 
@@ -18,6 +19,7 @@ function App() {
 			<div className="ml-10px">
 				<AboutMe />
 				<TechStack />
+				<Experience />
 				<Education />
 			</div>
 		</>

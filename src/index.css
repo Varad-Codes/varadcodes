@@ -12,9 +12,15 @@
 	margin: 5px;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 .cmd-output {
 	/* margin-left: 20px; */
 	margin-right: 40%;
+	padding-right: 25px;
+	padding-left: 20px;
 }
 @media only screen and (max-width: 730px) {
 	[class=cmd-output] {
