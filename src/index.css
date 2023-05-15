@@ -20,6 +20,8 @@ html{
 	/* margin-right: 40%; */
 	padding-right: 25px;
 	padding-left: 20px;
+	text-decoration: none;
+
 }
 @media only screen and (max-width: 730px) {
 	[class=cmd-output] {
