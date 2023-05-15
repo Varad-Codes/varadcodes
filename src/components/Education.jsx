@@ -1,9 +1,11 @@
 import Prompt from "./ui/Prompt";
 
-const Education = _ => {
+const Education = () => {
     return (
         <>
             <Prompt CMD={"Education"}/>
+            <br />
+            <br />
         </>
     );
 };

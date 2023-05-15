@@ -17,8 +17,7 @@ html{
 }
 
 .cmd-output {
-	/* margin-left: 20px; */
-	margin-right: 40%;
+	/* margin-right: 40%; */
 	padding-right: 25px;
 	padding-left: 20px;
 }
@@ -34,14 +33,24 @@ html{
 	:root{
 		font-size: smaller;
 	}
-	/* [class=cmd-output]{
-		/* margin-right: -20; 
-	} */
+	[class=cmd-output]{
+		margin-right: 0%; 
+		margin-left: 0%;
+	}
 	[id=ascii-art] {
 		font-size: 6px;
 	}
 }
-
+@media only screen and (min-width: 1440px){
+	[id=ascii-art] {
+		font-size: 21px;
+	}
+	.cmd-output {
+		margin-right: 40%;
+		padding-right: 25px;
+		padding-left: 20px;
+	}
+}
 /* #acii-art{
   --font-family-sans: 'Fira Code', sans-serif
 } */

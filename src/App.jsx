@@ -2,6 +2,7 @@ import AboutMe from "./components/AboutMe"
 import Education from "./components/Education"
 import Experience from "./components/Experience"
 import Hero from "./components/Hero"
+import Socials from "./components/Socials"
 import TechStack from "./components/TechStack"
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
 				<TechStack />
 				<Experience />
 				<Education />
+				<Socials />
 			</div>
 		</>
 	)
