@@ -53,10 +53,63 @@ html{
 		padding-left: 20px;
 	}
 }
-/* #acii-art{
-  --font-family-sans: 'Fira Code', sans-serif
-} */
 
+@media only screen and (min-width: 1232px){
+	[id=ascii-art] {
+		font-size: 21px;
+	}
+	.cmd-output {
+		margin-right: 40%;
+		padding-right: 25px;
+		padding-left: 20px;
+	}
+}
+
+@media only screen and (min-width: 1611px){
+	[id=ascii-art] {
+		font-size: 22px;
+	}
+	.cmd-output {
+		margin-right: 40%;
+		padding-right: 25px;
+		padding-left: 20px;
+	}
+}
+
+@media only screen and (min-width: 1687px){
+	[id=ascii-art] {
+		font-size: 23px;
+	}
+	.cmd-output {
+		margin-right: 40%;
+		padding-right: 25px;
+		padding-left: 20px;
+	}
+}
+
+
+@media only screen and (min-width: 1763px){
+	[id=ascii-art] {
+		font-size: 24px;
+	}
+	.cmd-output {
+		margin-right: 40%;
+		padding-right: 25px;
+		padding-left: 20px;
+	}
+}
+
+
+@media only screen and (min-width: 1839px){
+	[id=ascii-art] {
+		font-size: 25px;
+	}
+	.cmd-output {
+		margin-right: 40%;
+		padding-right: 25px;
+		padding-left: 20px;
+	}
+}
 
 body::-webkit-scrollbar-track {
 	/* -webkit-box-shadow: inset 0 0 6px rgb(0, 0, 0); */
