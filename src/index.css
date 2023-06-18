@@ -21,8 +21,14 @@ html{
 	padding-right: 30px;
 	padding-left: 20px;
 	text-decoration: none;
-
 }
+.cmd-output::before{
+	display: hidden;
+}
+.cmd-output::after{
+	display: block;
+}
+
 @media only screen and (max-width: 730px) {
 	[class=cmd-output] {
 		margin-right: 0%;
