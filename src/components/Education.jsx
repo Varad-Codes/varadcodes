@@ -1,4 +1,3 @@
-import { TypeAnimation } from 'react-type-animation';
 import Prompt from "./ui/Prompt";
 
 const Education = () => {
@@ -7,32 +6,18 @@ const Education = () => {
             <Prompt CMD={"Education"} />
 
             <div className="cmd-output">
-            <TypeAnimation
-              sequence={[
-                  "KG-1 -> Current: "
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={0}
-              cursor={false}
-              className="text-yellow"
-            />
-            <TypeAnimation
-              sequence={[
-                  " Delhi Public School Kolar Road Bhopal"
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={0}
-              cursor={false}
-              className="text-cyan"
-            />
+                <div>
+                    <h1 className="cmd-output">
+                        <p className="text-yellow font-bold">KG1 -{">"} Current(9th): <span className="text-cyan font-bold">Delhi Public School Kolar Road, Bhopal, Madhya Pradesh</span></p>
+                        <p className="text/* -yellow font-bold">Playschool: <span className="text-cyan font-bold">Lovedale Preschool Bhopal, Madhya Pradesh</span></p>
+                    </h1>
+                </div>
             </div>
 
             <br />
             <br />
         </>
     );
-};
-
+}
+            
 export default Education;
