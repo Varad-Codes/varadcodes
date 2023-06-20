@@ -26,18 +26,18 @@ const Hero = _ => {
                 {/* <p>A weeb, a programmer, Arch Linux user</p> */}
                 <TypeAnimation
                     sequence={[
-                        "A Weeb",
+                        "A Weeb, ",
+                        2000,
+                        "A Programmer, ",
                         1500,
-                        "A Programmer",
-                        1500,
-                        "Arch Linux User",
+                        "Arch Linux User, ",
                         1500,
                         "A Weeb, A Programmer, A Arch Linux User",
                     ]}
                     wrapper="span"
                     speed={50}
                     repeat={0}
-                    cursor={false}
+                    cursor={true}
                 />
 
             </div>
