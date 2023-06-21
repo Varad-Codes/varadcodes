@@ -30,9 +30,9 @@ const Hero = _ => {
                         2000,
                         "A Programmer, ",
                         1500,
-                        "Arch Linux User, ",
+                        "An Arch Linux User, ",
                         1500,
-                        "A Weeb, A Programmer, A Arch Linux User",
+                        "A Weeb, A Programmer, An Arch Linux User",
                     ]}
                     wrapper="span"
                     speed={50}
