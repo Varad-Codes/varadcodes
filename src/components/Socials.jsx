@@ -15,7 +15,6 @@ const Socials = () => {
                     <li className="text-yellow"><a href="https://instagram.com/f4ster444"> <InstagramIcon /><span className='text-blue'> Instagram</span></a></li>
                     <li className="text-yellow"><a href="mailto:varad.code19@gmail.com"> <EmailIcon /> <span className="text-blue"> Email </span> </a></li>
                     <br />
-                    <li className="text-yellow">Discord<span className='text-blue'> fasterelm</span></li>
                 </ol>
             </div>
             <br />

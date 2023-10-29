@@ -1,15 +1,22 @@
 import Prompt from './ui/Prompt';
 
 const Experience = () => {
+  const exp = [
+    { title: "Build-Edge", info: "Co-Founder, CTO" },
+    { title: "CodeSpector", info: "Co-Founder, CEO" },
+    { title: "Headway's Extraquadrata", info: "Member of Organizing Commitee" },
+  ];
   return (
     <>
       <Prompt CMD={"Experience"} />
       <ol className="cmd-output font-bold">
-        <li className='text-cyan'><span className='text-yellow'>Build-Edge</span> - Co-Founder, CTO</li>
-        <li className='text-cyan'><span className='text-yellow'>Headway&#39;s ExtraquadrataV1</span> - Member of Organizing Commitee in Site Incroyable (Web Development competition)</li>
-        <li className='text-cyan'><span className='text-yellow'>International Coding Olympiad 2022</span> - International Rank - 14</li>
-        <li className='text-cyan'><span className='text-yellow'>Sanskar Techfest 2023</span> - Senior Web Weaver - Special Mention</li>
-        {/* TODO : Add more web related projects */}
+        {exp.map((e) => {
+          return (
+            <li key={e.title} className='text-blue'>
+              <span className="text-yellow">{e.title}</span> - {e.info}
+            </li>
+          );
+        })}
       </ol>
       <br />
       <br />
