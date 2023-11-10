@@ -1,11 +1,9 @@
-import Prompt from "./const/Prompt";
-import Vision from "./Vision";
+import Prompt from "../const/Prompt";
 
 const Intro = () => {
     return (
         <section>
-            <div className="flex flex-col md:flex-row w-full">
-                <div className="content m-5 md:p-5 md:m-0">
+                <div className="content m-5 md:p-5 md:m-0 md:mr-5">
                     <Prompt cmd="intro" />
                     <h1>
                         I'm Varad Sharma, a self-taught Web and Rust developer
@@ -17,10 +15,6 @@ const Intro = () => {
                         a big fan of anime.
                     </h1>
                 </div>
-                <div className="md:pl-5">
-                    <Vision />
-                </div>
-            </div>
         </section>
     );
 };

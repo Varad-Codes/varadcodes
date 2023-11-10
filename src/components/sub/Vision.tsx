@@ -1,9 +1,9 @@
-import Prompt from "./const/Prompt";
+import Prompt from "../const/Prompt";
 
 const Vision = () => {
     return (
         <section>
-            <div className="content m-5 md:p-5 md:m-0">
+            <div className="content m-5 md:p-5 md:m-0 md:pl-5">
                 <Prompt cmd="vision" />
                 <h1>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
