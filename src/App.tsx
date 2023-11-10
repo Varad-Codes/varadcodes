@@ -1,11 +1,14 @@
 import Hero from './components/Hero';
 import Backdrop from './components/const/Backdrop';
 import Intro from './components/Intro';
-import Vision from './components/Vision';
 
 import './App.css';
+import { useRef } from 'react';
+import useScrollSnap from 'react-use-scroll-snap';
 
 function App() {
+    const ScrollSnap = useRef(null);
+    useScrollSnap({ ref: ScrollSnap, duration: 100 });
 
   return (
     <section className=''>
@@ -13,10 +16,8 @@ function App() {
             <Backdrop />
             <Hero />
         </div>
-
-        <div className=''>
-            <Intro />
-            <Vision />
+        <div ref={ScrollSnap}>
+            <Intro  />
         </div>
     </section>
   )

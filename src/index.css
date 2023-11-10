@@ -44,6 +44,11 @@ body {
 
     overflow-x: hidden;
     overflow-y: auto;
+
+    transition: 1s;
+
+    background: #10209b;
+    background: radial-gradient(at center, #2c16a8, #232b45, #0e0f12);
 }
 
 button {
@@ -82,6 +87,17 @@ button:focus-visible {
     z-index: -1;
     overflow: hidden;
 }
+.cnt-bg-1 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+
+    animation: gradient-animation 18s cubic-bezier(0.57, 0.09, 0.08, 0.94) infinite;
+
+    z-index: -1;
+    overflow: hidden;
+}
 
 .hero-content {
     background: rgba(0, 0, 0, 0.3);
@@ -90,8 +106,6 @@ button:focus-visible {
     -webkit-backdrop-filter: blur(20px);
     border-radius: 10px;
     z-index: 1;
-
-    transform: translateY(55%);
 
     padding: 1.5rem;
 }
@@ -105,4 +119,22 @@ button:focus-visible {
     z-index: 1;
 
     padding: 1.5rem;
+}
+
+#cnt-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background: #10209b;
+    background: radial-gradient(at center, #1627a8, #232b45, #0e0f12);
+
+    background-attachment: fixed;
+
+    animation: gradient-animation 18s cubic-bezier(0.57, 0.09, 0.08, 0.94) infinite;
+
+    z-index: -1;
+    overflow: hidden;
 }
