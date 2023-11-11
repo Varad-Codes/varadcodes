@@ -2,8 +2,21 @@ import Prompt from "../const/Prompt";
 
 const Experience = () => {
     const experience = [
-        { org: "Build-Edge", role: "CTO, Founder", timeline: "2023-present" },
-        { org: "CodeSpector", role: "CEO, Founder", timeline: "2023- present" },
+        {
+            org: "Build-Edge Group",
+            role: "CTO, Founder",
+            timeline: "2023-present",
+        },
+        { 
+            org: "CodeSpector", 
+            role: "CEO, Founder", 
+            timeline: "2023-present" 
+        },
+        {
+            org: "Extraquadrata",
+            role: "Organizer",
+            timeline: "2022-present",
+        },
     ];
 
     return (

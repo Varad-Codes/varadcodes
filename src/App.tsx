@@ -7,6 +7,7 @@ import useScrollSnap from "react-use-scroll-snap";
 import Introduction from "./components/Introduction";
 import Qualification from "./components/Qualification";
 import Exp from "./components/Exp";
+import Contact from "./components/Contact";
 
 function App() {
     const ScrollInfo = useRef(null);
@@ -17,6 +18,9 @@ function App() {
 
     const ScrollExp = useRef(null);
     useScrollSnap({ ref: ScrollExp, duration: 100 });
+
+    const ScrollContact = useRef(null);
+    useScrollSnap({ ref: ScrollContact, duration: 100 });
 
     return (
         <section>
@@ -33,6 +37,9 @@ function App() {
                 </div>
                 <div ref={ScrollExp} className="h-screen">
                     <Exp />
+                </div>
+                <div ref={ScrollContact} className="">
+                    <Contact />
                 </div>
             </div>
         </section>
