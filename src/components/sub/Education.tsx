@@ -6,6 +6,10 @@ const Education = () => {
             type: "School ( k-12 )",
             institute: "Delhi Public School, Kolar Road, Bhopal",
         },
+        {
+            type: "Technologies",
+            institute: "Slef Taught",
+        },
     ];
 
     return (
@@ -14,7 +18,7 @@ const Education = () => {
                 <Prompt cmd="education" />
                 {education.map((edu) => (
                     <div key={edu.institute}>
-                        <h3>{edu.type}</h3>
+                        <h2 className="text-xl text-orange">{edu.type}</h2>
                         <p>{edu.institute}</p>
                     </div>
                 ))}
