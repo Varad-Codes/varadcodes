@@ -2,7 +2,7 @@ import Prompt from "../const/Prompt";
 
 const Vision = () => {
     return (
-        <section>
+        <div>
             <div className="content m-5 md:p-5 md:m-0 md:pl-5">
                 <Prompt cmd="vision" />
                 <h1>
@@ -13,7 +13,7 @@ const Vision = () => {
                     more equitable and empowering digital future.
                 </h1>
             </div>
-        </section>
+        </div>
     );
 };
 

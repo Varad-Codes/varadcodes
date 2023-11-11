@@ -8,7 +8,7 @@ const TechStack = () => {
     ];
 
     return (
-        <section>
+        <div>
             <div className="content m-5 md:p-5 md:m-0 md:mr-5">
                 <Prompt cmd="techstack" />
                 {stack.map((tech) => (
@@ -18,7 +18,7 @@ const TechStack = () => {
                     </div>
                 ))}
             </div>
-        </section>
+        </div>
     );
 };
 

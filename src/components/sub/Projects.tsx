@@ -21,7 +21,7 @@ const Projects = () => {
     ];
 
     return (
-        <section>
+        <div>
             <div className="content m-5 md:p-5 ">
                 <Prompt cmd="projects" />
                 {projects.map((proj) => (
@@ -31,7 +31,7 @@ const Projects = () => {
                     </div>
                 ))}
             </div>
-        </section>
+        </div>
     );
 };
 

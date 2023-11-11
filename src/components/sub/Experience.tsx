@@ -20,7 +20,7 @@ const Experience = () => {
     ];
 
     return (
-        <section>
+        <div>
             <div className="content m-5 md:p-5 ">
                 <Prompt cmd="experience" />
                 {experience.map((exp) => (
@@ -31,7 +31,7 @@ const Experience = () => {
                     </div>
                 ))}
             </div>
-        </section>
+        </div>
     );
 };
 

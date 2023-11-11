@@ -7,8 +7,8 @@ import Prompt from "./const/Prompt";
 const Contact = () => {
     return (
         <>
-            <div className="flex md:translate-y-2/3">
-                <div className="content m-5 w-full translate-y-2/3">
+            <div className="flex w-full translate-y-[190%] md:translate-y-2/3">
+                <div className="content m-5 w-full translate-y-full bottom md:translate-y-2/3">
                     <Prompt cmd="contact" />
                     <div>
                         <span className="mb-1">

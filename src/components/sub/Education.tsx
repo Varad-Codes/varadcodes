@@ -13,7 +13,7 @@ const Education = () => {
     ];
 
     return (
-        <section>
+        <div>
             <div className="content m-5 md:p-5 md:m-0">
                 <Prompt cmd="education" />
                 {education.map((edu) => (
@@ -23,7 +23,7 @@ const Education = () => {
                     </div>
                 ))}
             </div>
-        </section>
+        </div>
     );
 };
 
