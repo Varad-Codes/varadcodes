@@ -3,7 +3,7 @@ import Prompt from "../const/Prompt";
 const TechStack = () => {
     const stack = [
         {type: "Languages", list: "Rust, JS/TS, Python, Java, C, C++"},
-        {type: "Frameworks", list: "React/Redux, Spring, Express, NextJS, Electron, TailwindCSS"},
+        {type: "Frameworks", list: "React, Redux, Spring, Express, NextJS, Electron, TailwindCSS, Android, React Native"},
         {type: "Databases", list: "Access, MongoDB, MySQL"},
     ];
 
