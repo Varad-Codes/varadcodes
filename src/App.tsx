@@ -11,16 +11,7 @@ import Contact from "./components/Contact";
 
 function App() {
     const ScrollInfo = useRef(null);
-    useScrollSnap({ ref: ScrollInfo, duration: 50 });
-
-    const ScrollStack = useRef(null);
-    useScrollSnap({ ref: ScrollStack, duration: 50 });
-
-    const ScrollExp = useRef(null);
-    useScrollSnap({ ref: ScrollExp, duration: 50 });
-
-    const ScrollContact = useRef(null);
-    useScrollSnap({ ref: ScrollContact, duration: 50 });
+    useScrollSnap({ ref: ScrollInfo, duration: 100 });
 
     return (
         <section>
@@ -32,13 +23,13 @@ function App() {
                 <div ref={ScrollInfo} className="h-screen">
                     <Introduction />
                 </div>
-                <div ref={ScrollStack} className="h-screen">
+                <div ref={ScrollInfo} className="h-screen">
                     <Qualification />
                 </div>
-                <div ref={ScrollExp} className="h-screen">
+                <div ref={ScrollInfo} className="h-screen">
                     <Exp />
                 </div>
-                <div  className="h-screen">
+                <div ref={ScrollInfo} className="h-screen">
                     <Contact />
                 </div>
             </div>
