@@ -14,7 +14,7 @@ const Education = () => {
 
     return (
         <div>
-            <div className="content m-5 md:p-5 md:m-0">
+            <div className="content m-5 p-5 md:m-0">
                 <Prompt cmd="education" />
                 {education.map((edu) => (
                     <div key={edu.institute}>
