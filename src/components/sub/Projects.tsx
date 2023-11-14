@@ -3,8 +3,8 @@ import Prompt from "../const/Prompt";
 const Projects = () => {
     const projects = [
         {
-            proj: "Notion Clone",
-            desc: "A bare bones clone of Notion.so, made with React and TailwindCSS with basic functionality like adding pages, editing pages, and deleting pages.",
+            proj: "NoteIt",
+            desc: "A bare bones note-taking app inspired by Notion, made with React and TailwindCSS with basic functionality like adding pages, editing pages, and deleting pages.",
         },
         {
             proj: "Portfolio",
@@ -16,7 +16,7 @@ const Projects = () => {
         },
         {
             proj: "Shivasa Lights",
-            desc: "A freelance website for a lighting company",
+            desc: "A freelance website for a decorative lighting company",
         },
     ];
 
