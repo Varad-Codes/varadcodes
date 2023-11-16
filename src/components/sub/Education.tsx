@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 import Prompt from "../const/Prompt";
 
 const Education = () => {
@@ -10,10 +12,18 @@ const Education = () => {
             type: "Technologies",
             institute: "Slef Taught",
         },
+        {
+            type: "CS50x",
+            institute: "Harvard University EDx",
+        },
     ];
 
     return (
-        <div>
+        <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            transition={{ duration: 0.5 }}
+            whileInView={{ opacity: 1, y: 0 }}
+        >
             <div className="content m-5 p-5 md:m-0">
                 <Prompt cmd="education" />
                 {education.map((edu) => (
@@ -23,7 +33,7 @@ const Education = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </motion.div>
     );
 };
 

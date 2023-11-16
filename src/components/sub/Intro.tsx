@@ -1,8 +1,14 @@
+import { motion } from "framer-motion";
+
 import Prompt from "../const/Prompt";
 
 const Intro = () => {
     return (
-        <section>
+        <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            transition={{ duration: 0.5 }}
+            whileInView={{ opacity: 1, y: 0 }}
+        >
                 <div className="content m-5 md:p-5 md:m-0 md:mr-5">
                     <Prompt cmd="intro" />
                     <h1>
@@ -20,7 +26,7 @@ const Intro = () => {
                         and support their cause.
                     </h1>
                 </div>
-        </section>
+        </motion.div>
     );
 };
 

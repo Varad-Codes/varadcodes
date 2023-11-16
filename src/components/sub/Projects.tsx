@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 import Prompt from "../const/Prompt";
 
 const Projects = () => {
@@ -21,7 +23,11 @@ const Projects = () => {
     ];
 
     return (
-        <div>
+        <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            transition={{ duration: 0.5 }}
+            whileInView={{ opacity: 1, y: 0 }}
+        >
             <div className="content m-5 md:p-5 ">
                 <Prompt cmd="projects" />
                 {projects.map((proj) => (
@@ -31,7 +37,7 @@ const Projects = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </motion.div>
     );
 };
 

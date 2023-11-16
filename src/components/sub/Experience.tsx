@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 import Prompt from "../const/Prompt";
 
 const Experience = () => {
@@ -7,10 +9,10 @@ const Experience = () => {
             role: "CTO, Founder",
             timeline: "2023-present",
         },
-        { 
-            org: "CodeSpector", 
-            role: "CEO, Founder", 
-            timeline: "2023-present" 
+        {
+            org: "CodeSpector",
+            role: "CEO, Founder",
+            timeline: "2023-present",
         },
         {
             org: "Extraquadrata",
@@ -20,7 +22,11 @@ const Experience = () => {
     ];
 
     return (
-        <div>
+        <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            transition={{ duration: 0.5 }}
+            whileInView={{ opacity: 1, y: 0 }}
+        >
             <div className="content m-5 md:p-5 ">
                 <Prompt cmd="experience" />
                 {experience.map((exp) => (
@@ -31,7 +37,7 @@ const Experience = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </motion.div>
     );
 };
 

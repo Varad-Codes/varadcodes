@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 import Prompt from "../const/Prompt";
 
 const TechStack = () => {
@@ -11,7 +13,11 @@ const TechStack = () => {
     ];
 
     return (
-        <div>
+        <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            transition={{ duration: 0.5 }}
+            whileInView={{ opacity: 1, y: 0 }}
+        >
             <div className="content m-5 md:p-5 md:m-0 md:mr-5">
                 <Prompt cmd="techstack" />
                 {stack.map((tech) => (
@@ -21,7 +27,7 @@ const TechStack = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </motion.div>
     );
 };
 

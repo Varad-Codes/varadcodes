@@ -2,12 +2,18 @@ import { Instagram } from "@mui/icons-material";
 import { GitHub } from "@mui/icons-material";
 import { Mail } from "@mui/icons-material";
 
+import { motion } from "framer-motion";
+
 import Prompt from "./const/Prompt";
 
 const Contact = () => {
     return (
-        <>
-            <div className="flex w-full translate-y-[190%] md:translate-y-2/3">
+        <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            transition={{ duration: 0.5 }}
+            whileInView={{ opacity: 1, y: 0 }}
+        >
+            <div className="flex w-full translate-y-[45%%] md:translate-y-2/3">
                 <div className="content m-5 w-full translate-y-full bottom md:translate-y-2/3">
                     <Prompt cmd="contact" />
                     <div>
@@ -18,8 +24,7 @@ const Contact = () => {
                             >
                                 <span className="text-orange">
                                     <Instagram />
-                                </span>
-                                {" "}
+                                </span>{" "}
                                 Instagram
                             </a>
                         </span>
@@ -31,8 +36,7 @@ const Contact = () => {
                             >
                                 <span className="text-orange">
                                     <GitHub />
-                                </span>
-                                {" "}
+                                </span>{" "}
                                 Github
                             </a>
                         </span>
@@ -44,15 +48,14 @@ const Contact = () => {
                             >
                                 <span className="text-orange">
                                     <Mail />
-                                </span>
-                                {" "}
+                                </span>{" "}
                                 EMail
                             </a>
                         </span>
                     </div>
                 </div>
             </div>
-        </>
+        </motion.div>
     );
 };
 
