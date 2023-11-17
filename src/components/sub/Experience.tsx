@@ -27,7 +27,7 @@ const Experience = () => {
             transition={{ duration: 0.5 }}
             whileInView={{ opacity: 1, y: 0 }}
         >
-            <div className="content m-5 md:p-5 ">
+            <div className="content m-5 md:p-5 md:m-0 md:mt-5">
                 <Prompt cmd="experience" />
                 {experience.map((exp) => (
                     <div key={exp.org}>

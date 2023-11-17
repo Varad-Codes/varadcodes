@@ -19,16 +19,16 @@ function App() {
                     <Backdrop />
                     <Hero />
                 </div>
-                <div ref={ScrollInfo} className="h-screen md:h-[60vh]">
+                <div ref={ScrollInfo} className="h-screen md:h-[30vh]">
                     <Introduction />
                 </div>
-                <div ref={ScrollInfo} className="h-screen md:h-[60vh]">
+                <div ref={ScrollInfo} className="h-screen md:h-[30vh]">
                     <Qualification />
                 </div>
-                <div ref={ScrollInfo} className="h-screen md:h-[60vh]">
+                <div ref={ScrollInfo} className="h-screen md:h-[40vh]">
                     <Exp />
                 </div>
-                <div ref={ScrollInfo} className="h-screen md:h-[60vh]">
+                <div ref={ScrollInfo} className="h-screen md:h-[40vh]">
                     <Contact />
                 </div>
             </div>

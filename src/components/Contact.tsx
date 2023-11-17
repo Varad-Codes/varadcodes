@@ -14,7 +14,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
         >
             <div className="flex w-full translate-y-[45%%] md:translate-y-2/3">
-                <div className="content m-5 w-full translate-y-full bottom md:translate-y-2/3">
+                <div className="content m-5 md:m-0 md:mt-5 w-full translate-y-full bottom md:translate-y-2/3">
                     <Prompt cmd="contact" />
                     <div>
                         <span className="mb-1">
