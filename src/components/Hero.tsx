@@ -15,7 +15,7 @@ const Hero = () => {
                     <h1 className="">I'm Varad Sharma</h1>
                 </div>
                 <div>
-                    <div className="hero-image hero-content m-5 rounded-full lg:translate-y-2/3 hover:shadow-xl">
+                    <div className="hero-image hero-content m-5 rounded-full lg:translate-y-2/3">
                         <img src="/me.png" alt="hero" className="rounded  ml-[8%] mr-[20%] md:m-0" />
                     </div>
                 </div>
