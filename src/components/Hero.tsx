@@ -6,7 +6,6 @@ const Hero = () => {
     return (
         <motion.div
             initial={{ opacity: 0 }}
-            whileTap={{ scale: 0.9 }}
             whileInView={{ opacity: 1 }}
         >
             <section className="hero transition flex flex-col md:flex-row">
