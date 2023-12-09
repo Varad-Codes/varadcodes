@@ -10,10 +10,26 @@
   font-weight: 400;
 
   background-color: #ffffdb;
+  background-color: #f9f9d2;
   color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-el {
+  font-weight: 600;
+
+  padding: 0rem 1.15rem;
+}
+
+.hero h1{
+  font-weight: 300;
+  letter-spacing: 0.5rem;
+  line-height: 8rem;
+}
+.hero p{
+  letter-spacing: 0.5rem;
 }
