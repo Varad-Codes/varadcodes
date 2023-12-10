@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,6 +21,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media (prefers-color-scheme: dark) {
+  #favicon {
+    filter: invert(100);
+  }
+}
+
 .nav-el {
   font-weight: 600;
 
@@ -26,9 +34,17 @@
 }
 
 .hero h1{
+  font-family: 'Playfair Display', serif;
+
   font-weight: 300;
   letter-spacing: 0.5rem;
   line-height: 8rem;
+}
+@media screen and (max-width: 768px) {
+  .hero h1{
+    line-height: 5.5rem;
+  }
+  
 }
 .hero p{
   letter-spacing: 0.5rem;

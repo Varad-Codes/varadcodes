@@ -8,8 +8,10 @@ function App() {
       <div>
         <Nav />
       </div>
-      <div className="max-w-5xl flex items-center content-center">
+      <div className="flex items-center content-center">
+      <div className="max-w-8xl ">
         <Hero />
+      </div>
       </div>
     </>
   );
