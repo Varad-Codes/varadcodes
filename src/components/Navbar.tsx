@@ -7,8 +7,8 @@ import ContactMailIcon from '@mui/icons-material/ContactMail';
 const Nav = () => {
 
   return (
-    <nav className="bg-slate-900 text-slate-100 p-5 mb-5">
-      <div className=''>
+    <nav className="bg-[#2b2b2b] text-slate-100 p-5 mb-5">
+      <div>
         <ul className="md:flex flex-row p-1 text-center hidden items-center self-center content-center justify-center">
           <li className="nav-el"><a href="/">Home</a></li>
           <li className="nav-el"><a href="#abt">About</a></li>
