@@ -35,19 +35,25 @@
   padding: 0rem 1.15rem;
 }
 
-.hero h1{
+.hero h1 {
   font-family: 'Playfair Display', serif;
 
   font-weight: 300;
   letter-spacing: 0.5rem;
   line-height: 8rem;
 }
+
 @media screen and (max-width: 768px) {
-  .hero h1{
+  .hero h1 {
     line-height: 5.5rem;
   }
-  
+
 }
-.hero p{
+
+.hero p {
   letter-spacing: 0.5rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
