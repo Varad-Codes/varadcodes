@@ -10,7 +10,7 @@ function App() {
         <Nav />
       </div>
       <div className="flex flex-col items-center content-center">
-        <div className="max-w-8xl ">
+        <div className="max-w-8xl">
           <Hero />
           <About />
         </div>
