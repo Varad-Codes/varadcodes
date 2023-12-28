@@ -11,9 +11,9 @@
   line-height: 1.5;
   font-weight: 400;
 
-  background-color: #ffffef;
+  background-color: #00060B;
   /* background-color: #f9f9d2; */
-  color: #242424;
+  color: #ececec;
 
   scroll-behavior: smooth;
 
@@ -23,18 +23,41 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+@keyframes breathe {
+  0% {
+    background: radial-gradient(50% 50% at 50% 50%, #0047FF 0%, rgba(0, 71, 255, 0.36) 29.69%, rgba(0, 71, 255, 0.00) 58.33%);
+  }
+  25% {
+    background: radial-gradient(50% 50% at 50.5% 50%, #0047FF 0%, rgba(0, 71, 255, 0.36) 29.69%, rgba(0, 71, 255, 0.00) 58.33%);
+  }
+  50% {
+    background: radial-gradient(50% 50% at 50% 50.5%, #0047FF 0%, rgba(0, 71, 255, 0.36) 29.69%, rgba(0, 71, 255, 0.00) 58.33%);
+  }
+  75% {
+    background: radial-gradient(50% 50% at 50.5% 50%, #0047FF 0%, rgba(0, 71, 255, 0.36) 29.69%, rgba(0, 71, 255, 0.00) 58.33%);
+  }
+  100% {
+    background: radial-gradient(50% 50% at 50% 50%, #0047FF 0%, rgba(0, 71, 255, 0.36) 29.69%, rgba(0, 71, 255, 0.00) 58.33%);
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   #favicon {
     filter: invert(100);
   }
 }
-
 .nav-el {
   font-weight: 600;
 
   padding: 0rem 1.15rem;
 }
 
+.hero-bg {
+  background: radial-gradient(50% 50% at 50% 50%, #0047FF 0%, rgba(0, 71, 255, 0.36) 29.69%, rgba(0, 71, 255, 0.00) 58.33%);
+  animation: breathe 5s ease-in-out infinite;
+  transition: 1s;
+  backdrop-filter: blur(40px);
+}
 .hero h1 {
   font-family: 'Playfair Display', serif;
 
@@ -52,6 +75,16 @@
 
 .hero p {
   letter-spacing: 0.55rem;
+}
+
+.abt {
+  letter-spacing: 0.55rem;
+}
+.abt h1{
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+  letter-spacing: 0.5rem;
+  line-height: 8rem;
 }
 
 ::-webkit-scrollbar {
