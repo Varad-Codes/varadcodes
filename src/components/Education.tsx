@@ -1,15 +1,15 @@
-const About = () => {
+const Education = () => {
   return (
-    <div id="abt">
-      <div className="abt">
+    <div id="edu">
+      <div className="edu">
         <div className="md:mt-[20vh] flex flex-col justify-between">
           <div className="mt-8 md:ml-8 flex flex-col">
             <h2 className="text-[5rem] md:text-8xl p-2 pb-0 pr-0 md:p-5 md:pb-0 ml-2 md:ml-5 font-bold">
-              About.
+              Education.
             </h2>
 
             <p className="text-slate-500 pl-4 ml-1 md:pl-5 md:ml-6 mb-5 uppercase">
-              A LITTLE BIT ABOUT ME
+              My education
             </p>
           </div>
 
@@ -33,6 +33,6 @@ const About = () => {
       </div>
     </div>
   );
-};
+}
 
-export default About;
+export default Education;
