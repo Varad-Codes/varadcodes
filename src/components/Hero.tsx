@@ -1,10 +1,7 @@
 import { motion } from 'framer-motion';
-import { useRef } from 'react';
 
 const Hero = () => {
-  const bgGradient = useRef<HTMLDivElement>(null);
-
- // useEffect(() => { // TODO: Fix this
+ // useEffect(() => { // Moved to CSS animations
   //   const angle = Math.random() * 360;
   //   console.log(angle);
   //   if (bgGradient.current) {
@@ -14,7 +11,7 @@ const Hero = () => {
 
   return (
     <div className="hero rounded-xl text-center p-5 md:mt-[20vh] md:m-12 flex flex-col justify-center">
-      <div className="hero-bg flex justify-center h-screen w-screen -z-10 absolute" ref={bgGradient}></div>
+      <div className="hero-bg flex justify-center h-screen w-screen -z-10 absolute" ></div>
       <motion.div 
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
