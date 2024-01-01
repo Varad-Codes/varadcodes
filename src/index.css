@@ -4,6 +4,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:  hsla(206, 100%, 3%, 1);
+    --bg2: hsla(244, 100%, 1%, 1);
+    --fg:  hsla(360, 0%, 91%, 1);
+    --ac:  hsla(206, 100%, 27%, 1);
+  }
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg:  hsla(48, 56%, 90%, 1);
+    --bg2: hsla(48, 56%, 95%, 1);
+    --fg:  hsla(48, 0%, 9%, 1);
+    --ac:  hsla(206, 100%, 2%, 1);
+  }
+}
 
 :root {
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
@@ -11,9 +27,8 @@
   line-height: 1.5;
   font-weight: 400;
 
-  background-color: #00060B;
-  /* background-color: #f9f9d2; */
-  color: #ececec;
+  background-color: var(--bg);
+  color: var(--fg);
 
   scroll-behavior: smooth;
 
@@ -21,85 +36,4 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-@keyframes breathe {
-  0% {
-    background: radial-gradient(50% 50% at 50% 50%, #0047FF 0%, rgba(0, 71, 255, 0.36) 29.69%, rgba(0, 71, 255, 0.00) 58.33%);
-  }
-  25% {
-    background: radial-gradient(50% 50% at 50.4% 50%, #0047FF 0%, rgba(0, 71, 255, 0.36) 29.69%, rgba(0, 71, 255, 0.00) 58.33%);
-  }
-  50% {
-    background: radial-gradient(50% 50% at 50% 50.4%, #0047FF 0%, rgba(0, 71, 255, 0.36) 29.69%, rgba(0, 71, 255, 0.00) 58.33%);
-  }
-  75% {
-    background: radial-gradient(50% 50% at 50.4% 50%, #0047FF 0%, rgba(0, 71, 255, 0.36) 29.69%, rgba(0, 71, 255, 0.00) 58.33%);
-  }
-  100% {
-    background: radial-gradient(50% 50% at 50% 50%, #0047FF 0%, rgba(0, 71, 255, 0.36) 29.69%, rgba(0, 71, 255, 0.00) 58.33%);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  #favicon {
-    filter: invert(100);
-  }
-}
-.nav-el {
-  font-weight: 600;
-
-  padding: 0rem 1.15rem;
-}
-
-.hero-bg {
-  background: radial-gradient(50% 50% at 50% 50%, #0047FF 0%, rgba(0, 71, 255, 0.36) 29.69%, rgba(0, 71, 255, 0.00) 58.33%);
-  animation: breathe 5s ease-in-out infinite;
-  transition: 1s;
-  backdrop-filter: blur(80px);
-}
-.hero h1 {
-  font-family: 'Playfair Display', serif;
-
-  font-weight: 300;
-  letter-spacing: 0.5rem;
-  line-height: 8rem;
-}
-.hero p{
-  letter-spacing: 0.55rem;
-}
-
-@media screen and (max-width: 768px) {
-  .hero h1 {
-    line-height: 5.5rem;
-  }
-}
-
-.abt {
-  letter-spacing: 0.55rem;
-}
-.abt h2{
-  font-family: 'Playfair Display', serif;
-  font-weight: 300;
-  letter-spacing: 0.5rem;
-  line-height: 8rem;
-}
-@media screen and (max-width: 768px) {
-  .abt h2{
-    font-size: 5rem;
-  }
-}
-
-.edu {
-  letter-spacing: 0.55rem;
-}
-.edu h2{
-  font-family: 'Playfair Display', serif;
-  font-weight: 300;
-  letter-spacing: 0.5rem;
-  line-height: 8rem;
-}
-
-::-webkit-scrollbar {
-  display: none;
 }
