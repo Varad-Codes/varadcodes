@@ -4,21 +4,43 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg:  hsla(206, 100%, 3%, 1);
-    --bg2: hsla(244, 100%, 1%, 1);
-    --fg:  hsla(360, 0%, 91%, 1);
-    --ac:  hsla(206, 100%, 27%, 1);
-  }
+/* @media (prefers-color-scheme: dark) { */
+/*   :root { */
+/*     --bg:  hsla(206, 100%, 3%, 1); */
+/*     --bg2: hsla(244, 100%, 1%, 1); */
+/*     --fg:  hsla(360, 0%, 91%, 1); */
+/*     --ac:  hsla(206, 100%, 27%, 1); */
+/*   } */
+/* } */
+
+:root {
+  --bg-d:  hsla(206, 100%, 3%, 1);
+  --bg2-d: hsla(244, 100%, 1%, 1);
+  --fg-d:  hsla(360, 0%, 91%, 1);
+  --ac-d:  hsla(206, 100%, 27%, 1);
+
+  --bg:  hsla(48, 56%, 90%, 1);
+  --bg2: hsla(48, 56%, 95%, 1);
+  --fg:  hsla(48, 0%, 9%, 1);
+  --ac:  hsla(206, 100%, 2%, 1);
 }
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg:  hsla(48, 56%, 90%, 1);
-    --bg2: hsla(48, 56%, 95%, 1);
-    --fg:  hsla(48, 0%, 9%, 1);
-    --ac:  hsla(206, 100%, 2%, 1);
-  }
+
+/* @media (prefers-color-scheme: light) { */
+/*   :root { */
+/*     --bg:  hsla(48, 56%, 90%, 1); */
+/*     --bg2: hsla(48, 56%, 95%, 1); */
+/*     --fg:  hsla(48, 0%, 9%, 1); */
+/*     --ac:  hsla(206, 100%, 2%, 1); */
+/*   } */
+/* } */
+
+.dark {
+  background: var(--bg-d);
+  color: var(--fg-d);
+}
+.light {
+  background:  var(--bg);
+  color:  var(--fg);
 }
 
 :root {
@@ -26,9 +48,6 @@
   font-family: 'Satoshi', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  background-color: var(--bg);
-  color: var(--fg);
 
   scroll-behavior: smooth;
 

@@ -1,23 +1,21 @@
 import "./App.css";
 import Hero from "./components/Hero";
 import Nav from "./components/Navbar";
-import { createContext } from "react";
 
-export const themeCtx = createContext('light')
 
 function App() {
 
   return (
-    <>
-      <themeCtx.Provider value="light">
+    <div id="main" className="h-screen w-screen dark">
+      <div>
         <Nav />
-      </themeCtx.Provider>
+      </div>
       <div className="flex flex-col items-center content-center">
         <div className="max-w-8xl">
           <Hero />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
