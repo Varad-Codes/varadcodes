@@ -18,21 +18,15 @@
   --bg2-d: hsla(244, 100%, 1%, 1);
   --fg-d:  hsla(360, 0%, 91%, 1);
   --ac-d:  hsla(206, 100%, 27%, 1);
+  --ac2-d: hsla(206, 100%, 16%, 1);
 
-  --bg:  hsla(48, 56%, 90%, 1);
-  --bg2: hsla(48, 56%, 95%, 1);
-  --fg:  hsla(48, 0%, 9%, 1);
-  --ac:  hsla(206, 100%, 2%, 1);
+  --bg:   hsla(48, 56%, 90%, 1);
+  --bg2:  hsla(48, 56%, 95%, 1);
+  --fg:   hsla(48, 0%, 9%, 1);
+  --ac:   hsla(206, 100%, 2%, 1);
+  --ac2:  hsla(206, 100%, 2%, 1);
 }
 
-/* @media (prefers-color-scheme: light) { */
-/*   :root { */
-/*     --bg:  hsla(48, 56%, 90%, 1); */
-/*     --bg2: hsla(48, 56%, 95%, 1); */
-/*     --fg:  hsla(48, 0%, 9%, 1); */
-/*     --ac:  hsla(206, 100%, 2%, 1); */
-/*   } */
-/* } */
 
 .dark {
   background: var(--bg-d);
@@ -72,4 +66,15 @@ body {
 }
 .hero-cnt-ver:nth-child(0) {
   grid-row: span 2;
+}
+
+.dark .hero-bento-el {
+  border: 1px solid var(--ac-d);
+  box-shadow: 0 0 0.4rem var(--ac-d);
+  -webkit-box-shadow: 0 0 0.4rem var(--ac-d);
+}
+.light .hero-bento-el {
+  border: 1px solid var(--ac);
+  box-shadow: 0 0 0.4rem var(--ac);
+  -webkit-box-shadow: 0 0 0.4rem var(--ac);
 }
