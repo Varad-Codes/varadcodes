@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const Hero = () => {
 
   return (
-    <div className="text-center p-5 mt-0 2xl:mt-[15vh] md:m-10 md:mt-0 flex flex-col justify-center content-center">
+    <div className="text-center h-screen w-screen p-5 flex flex-col justify-center content-center">
       {/* <div className="hero-bg flex content-center justify-center h-[50vh] md:h-[90vh] w-screen md:w-[90vw] -z-10 absolute" ></div> */}
       <div className='hero-cnt justify-center content-center'>
         <div className='hero-cnt-ver'>
