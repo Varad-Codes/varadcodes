@@ -12,7 +12,7 @@ const Hero = () => {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            className="mt-8 rounded-xl hero-bento-el"
+            className="mt-8  hero-bento-el"
           >
             <h1 className="text-[3.2rem] md:text-4xl p-2 pr-0 md:p-5 font-bold">Skills</h1>
           </motion.div>
@@ -24,7 +24,7 @@ const Hero = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              className="mt-8 rounded-xl hero-bento-el"
+              className="mt-8  hero-bento-el"
             >
               <h1 className="text-[3.2rem] md:text-4xl p-2 pr-0 md:p-5 font-bold">Education</h1>
             </motion.div>
@@ -32,7 +32,7 @@ const Hero = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              className="mt-8 rounded-xl hero-bento-el"
+              className="mt-8  hero-bento-el"
             >
               <h1 className="text-[5rem] md:text-8xl p-2 pr-0 md:p-5 font-bold">Varad <br /> Sharma</h1>
               <p className="text-slate-500 mb-5 uppercase">WEB DEVELOPER <br /> mimialist    ui</p>
@@ -41,7 +41,7 @@ const Hero = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              className="mt-8 rounded-xl hero-bento-el"
+              className="mt-8  hero-bento-el"
             >
               <h1 className="text-[3.2rem] md:text-4xl p-2 pr-0 md:p-5 font-bold">Projects</h1>
             </motion.div>
@@ -52,7 +52,7 @@ const Hero = () => {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            className="mt-8 rounded-xl hero-bento-el"
+            className="mt-8  hero-bento-el"
           >
             <h1 className="text-[3.2rem] md:text-4xl p-2 pr-0 md:p-5 ml-bold">Expericence</h1>
           </motion.div>

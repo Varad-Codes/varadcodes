@@ -68,13 +68,26 @@ body {
   grid-row: span 2;
 }
 
+.hero-bento-el {
+  backdrop-filter: blur(80px);
+  -webkit-backdrop-filter: blur(80px);
+
+  padding: 1rem;
+}
 .dark .hero-bento-el {
-  border: 1px solid var(--ac-d);
-  box-shadow: 0 0 0.4rem var(--ac-d);
-  -webkit-box-shadow: 0 0 0.4rem var(--ac-d);
+  /* border: 1px solid var(--ac-d); */
+  /* box-shadow: 0 0 0.4rem var(--ac-d); */
+  /* -webkit-box-shadow: 0 0 0.4rem var(--ac-d); */
+
+  border-radius: 10px;
+  /* background: linear-gradient(145deg, #272134, #201c2c); */
+  background: linear-gradient(145deg, var(--bg-d), var(--bg2-d));
+  box-shadow:  0.4rem 0.4rem 5rem #231e2f,
+             -0.4rem -0.4rem 5rem #372f4b;
 }
 .light .hero-bento-el {
+  border-radius: none;
   border: 1px solid var(--ac);
-  box-shadow: 0 0 0.4rem var(--ac);
-  -webkit-box-shadow: 0 0 0.4rem var(--ac);
+  box-shadow: 0.1rem 0.1rem 0.2rem var(--ac);
+  -webkit-box-shadow: 0.1rem 0.1rem 0.2rem var(--ac);
 }
