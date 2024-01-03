@@ -35,7 +35,7 @@ const Hero = () => {
               className="mt-8  hero-bento-el"
             >
               <h1 className="text-[5rem] md:text-8xl p-2 pr-0 md:p-5 font-bold">Varad <br /> Sharma</h1>
-              <p className="text-slate-500 mb-5 uppercase">WEB DEVELOPER <br /> mimialist    ui</p>
+              <p className="text-slate-500 tracking-[0.55rem] mb-5 uppercase">WEB DEVELOPER <br /> mimialist    ui</p>
             </motion.div>
 
             <motion.div

@@ -10,7 +10,7 @@ const Nav = () => {
 
   return (
     <nav className="text-slate-100 p-5 mb-5 md:absolute md:block">
-      <div className="absolute block z-1">
+      <div className="md:absolute md:block z-1 hidden">
         {/* <ul className="md:flex flex-row p-1 text-center hidden items-center self-center content-center justify-center"> */}
         {/*   <li className="nav-el"><a href="/">Home</a></li> */}
         {/*   <li className="nav-el"><a href="#abt">About</a></li> */}
