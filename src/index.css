@@ -63,11 +63,13 @@ body {
 
 .hero-cnt {
   display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  gap: 2rem;
 }
 
 .hero-cnt-ver {
   display: grid;
 }
 .hero-cnt-ver:nth-child(0) {
-  grid-row: 4;
+  grid-row: span 2;
 }
