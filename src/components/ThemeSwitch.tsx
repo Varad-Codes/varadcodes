@@ -14,7 +14,7 @@ const ThemeSwitch = () => {
   const handleThemeChange = () => {
     setDarkMode(!darkMode); // Toggle darkMode state
     console.log("line 18", darkMode);
-    const main = document.getElementById("main")
+    const main = document.getElementById("root")
 
     if (!darkMode) {
       main?.classList.remove("light")

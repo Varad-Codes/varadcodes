@@ -6,7 +6,7 @@ import Nav from "./components/Navbar";
 function App() {
 
   return (
-    <div id="main" className="dark">
+    <div id="main" className="">
       <div>
         <Nav />
       </div>
