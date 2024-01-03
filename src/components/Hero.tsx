@@ -15,7 +15,6 @@ const Hero = () => {
             className="mt-8 rounded-xl border-gray-50 border-2"
           >
             <h1 className="text-[4rem] md:text-6xl p-2 pr-0 md:p-5 font-bold">Skills</h1>
-            <p className="text-slate-500  mb-5 uppercase">WEB DEVELOPER <br /> mimialist    ui</p>
           </motion.div>
 
 
@@ -28,7 +27,6 @@ const Hero = () => {
               className="mt-8 rounded-xl border-gray-50 border-2"
             >
               <h1 className="text-[4.5rem] md:text-7xl p-2 pr-0 md:p-5 font-bold">Education</h1>
-              <p className="text-slate-500 mb-5 uppercase">WEB DEVELOPER <br /> mimialist    ui</p>
             </motion.div>
 
             <motion.div
@@ -46,7 +44,6 @@ const Hero = () => {
               className="mt-8 rounded-xl border-gray-50 border-2"
             >
               <h1 className="text-[4.5rem] md:text-7xl p-2 pr-0 md:p-5 font-bold">Projects</h1>
-              <p className="text-slate-500 mb-5 uppercase">WEB DEVELOPER <br /> mimialist    ui</p>
             </motion.div>
           </div>
 
@@ -58,7 +55,6 @@ const Hero = () => {
             className="mt-8 rounded-xl border-gray-50 border-2"
           >
             <h1 className="text-[4rem] md:text-6xl p-2 pr-0 md:p-5 ml-bold">Expericence</h1>
-            <p className="text-slate-500 mb-5 uppercase">WEB DEVELOPER <br /> mimialist    ui</p>
           </motion.div>
         </div>
       </div>
