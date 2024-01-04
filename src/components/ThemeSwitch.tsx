@@ -8,6 +8,7 @@ const ThemeSwitch = () => {
 
   const handleThemeChange = () => {
     setDarkMode(!darkMode); // Toggle darkMode state
+    console.log(darkMode);
     const main = document.getElementById("root")
 
     if (!darkMode) {
