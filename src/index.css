@@ -25,22 +25,6 @@
   --fg:   hsla(48, 0%, 9%, 1);
   --ac:   hsla(206, 100%, 2%, 1);
   --ac2:  hsla(206, 100%, 2%, 1);
-}
-
-
-.dark {
-  background: var(--bg-d);
-  color: var(--fg-d);
-}
-.light {
-  background:  var(--bg2);
-  color:  var(--fg);
-}
-.light h1 {
-  font-family: 'Playfair Display', serif;
-}
-
-:root {
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   font-family: 'Satoshi', sans-serif;
   line-height: 1.5;
@@ -54,19 +38,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  transition: all 0.5s;
+.dark {
+  background: var(--bg-d);
+  color: var(--fg-d);
+}
+.light {
+  background:  var(--bg2);
+  color:  var(--fg);
+}
+.light h1 {
+  font-family: 'Playfair Display', serif;
 }
 
-/* .hero-cnt { */
-/*   display: grid; */
-/*   /* grid-template-columns: 1fr 1fr; */ */
-/*   gap: 2rem; */
-/* } */
-
-/* .hero-cnt-ver { */
-/*   display: grid; */
-/* } */
 
 .hero-bento-el {
   backdrop-filter: blur(80px);
