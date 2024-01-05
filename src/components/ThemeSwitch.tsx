@@ -21,8 +21,8 @@ const ThemeSwitch = () => {
   };
 
   return (
-    <div>
-      <button onClick={handleThemeChange} className={darkMode ? "" : "invert"}>
+    <div className='justify-center content-center align-middle nav-el'>
+      <button onClick={handleThemeChange} className='flex justify-center content-center align-middle'>
         {darkMode ? <DarkModeIcon /> : <LightModeIcon />}
       </button>
     </div>
