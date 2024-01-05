@@ -36,6 +36,9 @@
   background:  var(--bg2);
   color:  var(--fg);
 }
+.light h1 {
+  font-family: 'Playfair Display', serif;
+}
 
 :root {
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
