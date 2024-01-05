@@ -12,24 +12,6 @@
 /*     --ac:  hsla(206, 100%, 27%, 1); */
 /*   } */
 
-@keyframes horizontal-shaking {
-  0% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateX(1px);
-  }
-  50% {
-    transform: translateX(-1px);
-  }
-  75% {
-    transform: translateX(1px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
 :root {
   --bg-d: hsla(206, 100%, 3%, 1);
   --bg2-d: hsla(244, 100%, 1%, 1);
@@ -88,19 +70,17 @@
   backdrop-filter: blur(80px);
   border-radius: 0.5rem;
   /* background: linear-gradient(145deg, #272134, #201c2c); */
-  background: linear-gradient(145deg, var(--bg-d), var(--bg2-d));
+  background: linear-gradient(145deg, var(--bg2-d), var(--bg-d));
   /* box-shadow: */
   /*   0.4rem 0.4rem 5rem #231e2f, */
   /*   -0.4rem -0.4rem 5rem #372f4b; */
   box-shadow:
     0.2rem 0.2rem 4rem #231e2f,
     -0.1rem -0.1rem 4rem #372f4b;
-  transition: 1s;
+  transition: all 1s;
 }
 .dark .hero-bento-el:hover {
-  background: linear-gradient(145deg, var(--bg2-d), var(--bg-d));
-  transition: 2s;
-  /* animation: horizontal-shaking 0.5s infinite; */
+  background: linear-gradient(145deg, var(--bg-d), var(--bg2-d));
 }
 
 .light .hero-bento-el {

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="text-center  w-[90vw] flex flex-col justify-center content-center">
+    <div className="text-center xl:h-screen  w-[90vw] flex flex-col justify-center content-center">
       {/* <div className="hero-bg flex content-center justify-center h-[50vh] md:h-[90vh] w-screen md:w-[90vw] -z-10 absolute" ></div> */}
       {/* Desktop */}
       <div className="hero-cnt justify-center content-center hidden md:grid">
