@@ -87,7 +87,7 @@
   transition: 0.3s;
 }
 .light .hero-bento-el:hover {
-  box-shadow: 0.4rem 0.4rem 0.25rem var(--ac);
+  box-shadow: 0.4rem 0.4rem 0.17rem var(--ac);
 }
 
 .light nav {
