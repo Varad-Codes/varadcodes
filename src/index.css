@@ -4,13 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @media (prefers-color-scheme: dark) { */
-/*   :root { */
-/*     --bg:  hsla(206, 100%, 3%, 1); */
-/*     --bg2: hsla(244, 100%, 1%, 1); */
-/*     --fg:  hsla(360, 0%, 91%, 1); */
-/*     --ac:  hsla(206, 100%, 27%, 1); */
-/*   } */
 
 :root {
   --bg-d: hsla(206, 100%, 3%, 1);
