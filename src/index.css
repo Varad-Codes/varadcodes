@@ -75,12 +75,15 @@
   /*   0.4rem 0.4rem 5rem #231e2f, */
   /*   -0.4rem -0.4rem 5rem #372f4b; */
   box-shadow:
-    0.2rem 0.2rem 4rem #231e2f,
-    -0.1rem -0.1rem 4rem #372f4b;
+    0.2rem 0.2rem 4rem #231e2fab,
+    -0.1rem -0.1rem 4rem #372f4bab;
   transition: all 1s;
 }
 .dark .hero-bento-el:hover {
-  background: linear-gradient(145deg, var(--bg-d), var(--bg2-d));
+  /* background: linear-gradient(145deg, var(--bg-d), var(--bg2-d)); */
+  box-shadow:
+    0.2rem 0.2rem 4rem #231e2f,
+    -0.1rem -0.1rem 4rem #372f4b;
 }
 
 .light .hero-bento-el {
@@ -89,7 +92,10 @@
   border: 1px solid var(--ac);
   box-shadow: 0.2rem 0.2rem 0.1rem var(--ac);
   -webkit-box-shadow: 0.2rem 0.2rem 0.1rem var(--ac);
-  transition: 1s;
+  transition: 0.3s;
+}
+.light .hero-bento-el:hover {
+  box-shadow: 0.4rem 0.4rem 0.25rem var(--ac);
 }
 
 .light nav {

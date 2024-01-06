@@ -14,7 +14,7 @@ const Hero = () => {
             className="mt-8  hero-bento-el"
           >
             <h1 className="text-[3.2rem] md:text-4xl p-2 pr-0 md:p-5 font-bold">
-              Skills
+              TechStack
             </h1>
           </motion.div>
 
