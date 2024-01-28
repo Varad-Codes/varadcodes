@@ -1,7 +1,7 @@
 {
   "name": "vite-project",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "gasp": "^0.0.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.19",
+    "@mui/material": "^5.14.20",
+    "framer-motion": "^10.16.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -20,9 +24,12 @@
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.16",
     "eslint": "^8.53.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
   }

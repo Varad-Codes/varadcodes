@@ -1,11 +1,22 @@
-import './App.css'
+import "./App.css";
+import Hero from "./components/Hero";
+import Nav from "./components/Navbar";
+
 
 function App() {
+
   return (
-    <div>
-      <h1>Work under progress. The new version will be pushed soon</h1>
+    <div id="main" className="">
+      <div>
+        <Nav />
+      </div>
+      <div className="flex flex-col items-center content-center">
+        <div className="max-w-8xl">
+          <Hero />
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
