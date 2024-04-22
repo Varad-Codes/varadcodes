@@ -3,7 +3,7 @@ import './App.css'
 function App() {
   return (
     <div>
-      <h1>Work under progress. The new version will be pushed soon</h1>
+      <h1>making something great</h1>
     </div>
   )
 }
